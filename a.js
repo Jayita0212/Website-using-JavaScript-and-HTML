@@ -1,9 +1,9 @@
 const gallery=[
-    {src:"./images/pic1.jpg",
+    {src:"pic1.jpg",
 	 alt:"Image1"},
-	{src:"./images/pic2.jpg",
+	{src:"pic2.jpg",
 	 alt:"Image2"},
-	{src:"./images/pic3.jpg", 
+	{src:"pic3.jpg", 
 	alt:"Image3"}];
 function CtoF(temp){
 let F=(temp*9/5)+32;
