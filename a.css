@@ -1,0 +1,52 @@
+:root{
+	--background-color:#2b2b2b;
+	--light-background-color:#3b3b3b;
+	--gray-color:#cccccc;
+	--dark-gray-color:#858584;
+}
+
+h1{text-align:center;
+   color:blue;
+   background:yellow;
+   font-family:Algerian;
+   }
+.show{
+	margin:0px;
+}   
+.thumbnails{
+	height:30px;
+	width:30px;
+	display:flex;
+	margin-top:30px;	
+}
+html{
+	box-sizing:border-box;
+	font-size:16px;
+	background:var(--background-color);
+	color:white;
+	font-family:"Work Sans",sans-serif;
+	scroll-behaviour:smooth;
+}
+.navbar{background:gray;
+     
+	   margin:1px;
+	   padding:10px;
+	   height:35px;
+	   position:sticky;}
+.hamburger{ 
+	height:5px;
+	width:30px;
+	background-color:black;
+	margin:1px 500px;
+	position:sticky;
+}
+.products-area{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	box-sizing:border-box;
+	margin:6px,10px;
+	}
+.products-area img{
+	height:200px;
+     width:170px;}
